@@ -1,0 +1,16 @@
+import { build } from 'esbuild';
+import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { createRequire } from 'node:module';
+import { resolve } from 'node:path';
+await mkdir('assets', {recursive:true});
+await build({entryPoints:['src/main.jsx'],outfile:'assets/portfolio.js',bundle:true,minify:true,format:'iife',target:['chrome100','firefox100','safari15'],jsx:'automatic',define:{'process.env.NODE_ENV':'"production"'},legalComments:'eof'});
+const font=await readFile('node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-latin-wght-normal.woff2');
+const css=await readFile('src/styles.css','utf8');
+await writeFile('assets/portfolio.css',css.replace("url('./space-grotesk.woff2')",`url('data:font/woff2;base64,${font.toString('base64')}')`));
+await mkdir('.cache',{recursive:true});
+await build({entryPoints:['tools/render.jsx'],outfile:'.cache/render.cjs',bundle:true,platform:'node',format:'cjs',jsx:'automatic',define:{'process.env.NODE_ENV':'"production"'},logLevel:'silent'});
+const require=createRequire(import.meta.url);
+const {renderStatic}=require(resolve('.cache/render.cjs'));
+const template=await readFile('src/template.html','utf8');
+await writeFile('index.html',template.replace('<!--APP_HTML-->',renderStatic()));
+console.log('Built offline portfolio: open index.html directly.');

@@ -1,0 +1,17 @@
+/* Shared title accent for the five solution hero banners. */
+body[data-solution-key] .detail-hero-copy h1::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  margin-top: 18px;
+  border-radius: 999px;
+  background: #e6001c;
+}
+
+@media (max-width: 760px) {
+  body[data-solution-key] .detail-hero-copy h1::after {
+    width: 48px;
+    margin-top: 14px;
+  }
+}

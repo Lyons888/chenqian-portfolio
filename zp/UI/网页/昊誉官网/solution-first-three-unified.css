@@ -1,0 +1,584 @@
+/* Unified customer-case gallery and consultation card for the first three solution pages. */
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases{
+  scroll-margin-top:150px;
+  padding:120px 0 118px;
+  background:#fff!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-section-heading{
+  max-width:920px;
+  margin:0 auto 46px;
+  text-align:center;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-section-heading::after,
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-section-heading h2::after{
+  display:none!important;
+  content:none!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-cases{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases a.detail-case{
+  position:relative;
+  isolation:isolate;
+  display:block!important;
+  min-width:0;
+  overflow:visible;
+  padding:26px 28px 24px!important;
+  border:1px solid #dce3eb!important;
+  border-radius:20px!important;
+  color:inherit;
+  background:#fff!important;
+  box-shadow:0 18px 48px rgb(24 39 61/.10)!important;
+  cursor:pointer;
+  text-decoration:none;
+  transform:none;
+  transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s ease,border-color .25s ease;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases a.detail-case:is(:hover,:focus-visible){
+  border-color:#cfd8e3!important;
+  box-shadow:0 28px 62px rgb(15 23 42/.14)!important;
+  transform:translateY(-6px)!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-browser{
+  margin:0;
+  overflow:hidden;
+  border:0!important;
+  border-radius:0!important;
+  background:#fff;
+  box-shadow:none!important;
+  transform:none!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-browser-bar{
+  display:none!important;
+  grid-template-columns:1fr 18px;
+  align-items:center;
+  gap:18px;
+  height:42px;
+  padding:0 16px!important;
+  border-bottom:1px solid #e5eaf0;
+  background:#fbfcfe;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-browser-bar>span{
+  width:min(52%,280px);
+  height:12px;
+  justify-self:center;
+  border-radius:999px;
+  background:#f0f3f7;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-browser-bar>img{
+  display:block;
+  width:17px;
+  height:17px;
+  margin:0;
+  opacity:.38;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-browser>.detail-case-screen{
+  display:block;
+  width:100%;
+  height:auto!important;
+  min-height:0;
+  margin:0;
+  border-radius:0;
+  aspect-ratio:2.42/1;
+  object-fit:cover;
+  object-position:center top;
+  background:#f5f7fa;
+  transform:none!important;
+  transition:transform .48s cubic-bezier(.16,1,.3,1);
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases a.detail-case:is(:hover,:focus-visible) .detail-case-browser>.detail-case-screen{
+  transform:scale(1.055)!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-copy{
+  display:block;
+  min-height:0;
+  padding:36px 27px 0!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-title-row{
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr);
+  align-items:center;
+  gap:18px;
+  min-height:0!important;
+  padding:0!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-index{
+  margin:0;
+  padding-right:18px;
+  border-right:2px solid #e6001c;
+  color:#e6001c;
+  font-size:30px;
+  font-weight:850;
+  letter-spacing:-.04em;
+  line-height:1;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case h3{
+  min-width:0;
+  margin:0;
+  color:#101828;
+  font-size:26px;
+  line-height:1.35;
+  letter-spacing:-.02em;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case p{
+  max-width:none;
+  margin:15px 0 0;
+  color:#667085;
+  font-size:16px;
+  line-height:1.75;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-link{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:22px;
+  color:#e6001c;
+  font-size:14px;
+  font-weight:700;
+  line-height:1;
+  transition:color .22s ease,transform .22s ease,gap .22s ease;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases .detail-case-link img{
+  width:18px;
+  height:18px;
+  object-fit:contain;
+  transition:transform .28s cubic-bezier(.16,1,.3,1),filter .22s ease;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases a.detail-case:is(:hover,:focus-visible) .detail-case-link{
+  gap:14px;
+  color:#bd0017;
+  transform:translateX(3px);
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases a.detail-case:is(:hover,:focus-visible) .detail-case-link img{
+  filter:brightness(0) saturate(100%) invert(9%) sepia(98%) saturate(6365%) hue-rotate(348deg) brightness(82%) contrast(115%);
+  transform:translateX(6px);
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases a.detail-case:focus-visible{
+  outline:0!important;
+  outline-offset:0!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases + .detail-cta{
+  position:relative;
+  z-index:2;
+  margin-top:-30px;
+  padding:6px 0 112px!important;
+  background:#fff!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases + .detail-cta .detail-cta-box{
+  position:relative;
+  z-index:1;
+  overflow:visible!important;
+  min-height:0;
+  padding:34px 40px;
+  border:1px solid #dce3eb!important;
+  border-radius:20px!important;
+  color:#101828!important;
+  background:#fff!important;
+  box-shadow:0 18px 48px rgb(24 39 61/.10)!important;
+  transform:none!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases + .detail-cta .detail-cta-box::before,
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases + .detail-cta .detail-cta-box::after{
+  display:none!important;
+  content:none!important;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases + .detail-cta .detail-cta-box h2{
+  margin:0;
+  color:#101828;
+  font-size:28px;
+  line-height:1.3;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases + .detail-cta .detail-cta-box p{
+  margin:9px 0 0;
+  color:#667085;
+  font-size:14px;
+  line-height:1.7;
+}
+
+body:is(
+  [data-solution-key="digital"],
+  [data-solution-key="teacher"],
+  [data-solution-key="content-brand"]
+) #cases + .detail-cta .btn{
+  min-height:48px;
+  border-radius:11px;
+  box-shadow:0 12px 26px rgb(230 0 28/.18);
+  white-space:nowrap;
+}
+
+@media(max-width:1200px){
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-browser>.detail-case-screen{height:auto!important}
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case h3{font-size:21px}
+}
+
+@media(max-width:900px){
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-cases{
+    grid-template-columns:1fr;
+    gap:58px;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-browser>.detail-case-screen{
+    height:auto!important;
+    aspect-ratio:1.72/1;
+  }
+}
+
+@media(max-width:760px){
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases{
+    scroll-margin-top:126px;
+    padding:84px 0 80px;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-section-heading{margin-bottom:34px}
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases a.detail-case{
+    padding:10px 10px 22px!important;
+    border-width:1px!important;
+    border-radius:18px!important;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-copy{padding:22px 10px 0!important}
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-title-row{
+    align-items:start;
+    gap:13px;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-index{
+    padding-right:13px;
+    font-size:25px;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case h3{font-size:20px}
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case p{font-size:14px}
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases + .detail-cta{padding-bottom:74px!important}
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases + .detail-cta .detail-cta-box{
+    grid-template-columns:1fr;
+    gap:24px;
+    padding:28px 24px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases a.detail-case,
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-link,
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-link img{
+    transition:none!important;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases a.detail-case:is(:hover,:focus-visible),
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases a.detail-case:is(:hover,:focus-visible) .detail-case-link,
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases a.detail-case:is(:hover,:focus-visible) .detail-case-link img{
+    transform:none!important;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases .detail-case-browser>.detail-case-screen{
+    transition:none!important;
+  }
+
+  body:is(
+    [data-solution-key="digital"],
+    [data-solution-key="teacher"],
+    [data-solution-key="content-brand"]
+  ) #cases a.detail-case:is(:hover,:focus-visible) .detail-case-browser>.detail-case-screen{
+    transform:none!important;
+  }
+}
+/* The teacher-development gallery presents the four non-digital cases in one desktop row. */
+@media(min-width:1101px){
+  body[data-solution-key="teacher"] #cases .detail-cases{
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:18px;
+  }
+  body[data-solution-key="teacher"] #cases a.detail-case{
+    display:grid!important;
+    grid-template-columns:1fr;
+    grid-template-rows:auto 1fr;
+    padding:10px 10px 22px!important;
+    border-radius:18px!important;
+  }
+  body[data-solution-key="teacher"] #cases .detail-case-browser>.detail-case-screen{
+    aspect-ratio:1.78/1;
+  }
+  body[data-solution-key="teacher"] #cases .detail-case-copy{
+    display:flex;
+    flex-direction:column;
+    padding:22px 8px 0!important;
+  }
+  body[data-solution-key="teacher"] #cases .detail-case-title-row{
+    gap:10px;
+    min-height:52px!important;
+  }
+  body[data-solution-key="teacher"] #cases .detail-case-index{
+    padding-right:10px;
+    font-size:22px;
+  }
+  body[data-solution-key="teacher"] #cases .detail-case h3{
+    min-height:0;
+    font-size:clamp(18px,1.6vw,20px);
+    line-height:1.45;
+  }
+  body[data-solution-key="teacher"] #cases .detail-case p{
+    margin-top:12px;
+    font-size:clamp(13px,1.1vw,14px);
+    line-height:1.7;
+  }
+  body[data-solution-key="teacher"] #cases .detail-case-link{
+    margin-top:auto;
+    padding-top:18px;
+  }
+}
+
+@media(min-width:761px) and (max-width:1100px){
+  body[data-solution-key="teacher"] #cases .detail-cases{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:24px;
+  }
+}
+
+/* Content-brand case cards: keep actions aligned along the lower edge. */
+body[data-solution-key="content-brand"] #cases a.detail-case{
+  display:flex!important;
+  flex-direction:column;
+}
+body[data-solution-key="content-brand"] #cases .detail-case-copy{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+}
+body[data-solution-key="content-brand"] #cases .detail-case-link{
+  margin-top:auto;
+  padding-top:22px;
+}

@@ -1,0 +1,88 @@
+@import url("cases-v3-layout-base.css");
+
+.case-index-v3-hero h1 {
+  font-size: clamp(26px, 2.38vw, 41px);
+}
+
+.case-index-v3-title-accent {
+  color: #e60012;
+}
+
+.case-index-v3-media {
+  aspect-ratio: 760 / 430;
+}
+
+.case-index-v3-copy {
+  min-height: 216px;
+  padding: 27px 26px 22px;
+  text-align: left;
+}
+
+.case-index-v3-copy h2 {
+  order: 1;
+  width: 100%;
+  min-height: 0;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: left;
+  -webkit-line-clamp: 3;
+}
+
+.case-index-v3-summary {
+  order: 2;
+  width: 100%;
+  max-width: none;
+  margin: 8px 0 22px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.case-index-v3-type {
+  order: 3;
+  align-self: flex-start;
+  margin: auto 0 0;
+  padding: 5px 9px;
+  color: #858b94;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  background: #f0f1f3;
+  border-radius: 5px;
+}
+
+#party-school .case-index-v3-media {
+  background: #d8edf5;
+}
+
+#party-school .case-index-v3-media::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("assets/case-party-school-screenshot-original.png") center / cover no-repeat;
+  transition: transform .45s ease;
+}
+
+#party-school:hover .case-index-v3-media::before {
+  transform: scale(1.025);
+}
+
+#party-school .case-index-v3-media img {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #party-school .case-index-v3-media::before {
+    transition: none;
+  }
+}
+
+@media (max-width: 759px) {
+  .case-index-v3-copy {
+    min-height: 205px;
+    padding: 24px 22px 20px;
+  }
+
+  .case-index-v3-copy h2 {
+    min-height: 0;
+  }
+}

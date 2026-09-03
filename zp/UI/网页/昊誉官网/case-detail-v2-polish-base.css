@@ -1,0 +1,24 @@
+@import url("case-detail-v2-layout-base.css");
+
+.story-v2 h1,
+.story-v2-lead {
+  max-width: 1160px;
+}
+
+.story-v2-facts {
+  align-self: stretch;
+}
+
+.story-v2-nav-bar {
+  display: none;
+}
+
+.story-v2-article {
+  padding-top: 0;
+}
+
+@media (max-width: 900px) {
+  .story-v2-facts {
+    align-self: auto;
+  }
+}

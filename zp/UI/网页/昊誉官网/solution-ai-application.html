@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI智能体与应用服务整体解决方案，覆盖场景规划、知识库、智能体开发、应用集成、推广运营与成效衡量。">
+  <title>AI智能体与应用服务解决方案 - 昊誉信息</title>
+  <link rel="stylesheet" href="styles.css?v=20260728ai4">
+  <link rel="stylesheet" href="solution-detail.css?v=20260729glass1">
+  <link rel="stylesheet" href="solution-ai-v4.css?v=20260728a">
+  <link rel="stylesheet" href="solution-ai-v4-components.css?v=20260731appdelivery1">
+  <style id="ai-platform-equal-card-fix">
+    @media (min-width:981px){
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs{
+        grid-template-columns:repeat(3,minmax(0,1fr))!important;
+        grid-template-rows:476px!important;
+      }
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button,
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"]{
+        grid-column:auto!important;
+        grid-row:1!important;
+        width:100%!important;
+        height:476px!important;
+        min-height:476px!important;
+        border-color:#d9e2ec!important;
+        background:#fff!important;
+        box-shadow:0 16px 42px rgb(31 45 66/.075)!important;
+        filter:none!important;
+        transform:none!important;
+      }
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"]::before{
+        background:transparent!important;
+      }
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button:is(:hover,:focus-visible){
+        border-color:rgb(230 0 28/.25)!important;
+        background:#fff!important;
+        box-shadow:0 20px 46px rgb(31 45 66/.1),inset 0 1px 0 rgb(255 255 255/.92)!important;
+        transform:translateY(-6px)!important;
+      }
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button:is(:hover,:focus-visible)>img{
+        transform:translateY(-4px) scale(1.025)!important;
+      }
+    }
+    /* Browser comments 20260729 q: neutral platform cards, centered headings, shared hover and Iconify CTA. */
+    body[data-solution-key="ai-application"] #model .ai-v4-model-heading,
+    body[data-solution-key="ai-application"] #program .ai-v4-program-heading{
+      width:min(820px,100%)!important;
+      margin-right:auto!important;
+      margin-left:auto!important;
+      text-align:center!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-model-heading p,
+    body[data-solution-key="ai-application"] #program .ai-v4-program-heading p{
+      margin-right:auto!important;
+      margin-left:auto!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"]{
+      border-color:#d9e2ec!important;
+      background:#fff!important;
+      box-shadow:0 16px 42px rgb(31 45 66/.075)!important;
+      transform:none!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"]::before{
+      background:transparent!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"]>span{
+      border-color:rgb(255 255 255/.9)!important;
+      color:#65758a!important;
+      background:rgb(255 255 255/.82)!important;
+      box-shadow:0 8px 22px rgb(31 45 66/.08),inset 0 1px 0 #fff!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button strong,
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"] strong{
+      color:var(--ai-v4-ink)!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button p,
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"] p{
+      font-size:14px!important;
+      line-height:1.55!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button:is(:hover,:focus-visible),
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button[aria-selected="true"]:is(:hover,:focus-visible){
+      border-color:rgb(230 0 28/.25)!important;
+      background:#fff!important;
+      box-shadow:0 20px 46px rgb(31 45 66/.1),inset 0 1px 0 rgb(255 255 255/.92)!important;
+      transform:translateY(-6px)!important;
+    }
+    body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button:is(:hover,:focus-visible)>img{
+      transform:translateY(-4px) scale(1.025)!important;
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span,
+    body[data-solution-key="ai-application"] #program .ai-v4-assessment-card .btn{
+      position:relative;
+      isolation:isolate;
+      overflow:hidden;
+      background:linear-gradient(135deg,#f00022 0%,#e6001c 100%)!important;
+      box-shadow:0 12px 26px rgb(230 0 28/.2)!important;
+      transform:translateZ(0)!important;
+      transition:background-color .24s ease,border-color .24s ease,box-shadow .24s ease,transform .24s cubic-bezier(.16,1,.3,1)!important;
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span::before{
+      position:absolute;
+      inset:-2px auto -2px -46%;
+      z-index:0;
+      width:42%;
+      border-radius:inherit;
+      background:linear-gradient(105deg,transparent 0%,rgb(255 255 255/.72) 48%,transparent 100%);
+      opacity:0;
+      transform:skewX(-18deg) translateX(0);
+      pointer-events:none;
+      content:"";
+      transition:opacity .24s ease,transform .58s cubic-bezier(.16,1,.3,1);
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span>img,
+    body[data-solution-key="ai-application"] #program .ai-v4-assessment-card .ai-v4-cta-arrow{
+      position:relative;
+      z-index:1;
+      display:block;
+      width:18px;
+      height:18px;
+      flex:0 0 18px;
+      object-fit:contain;
+      transition:transform .24s cubic-bezier(.16,1,.3,1);
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-assessment-card .btn::after{
+      display:none!important;
+      content:none!important;
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span:hover,
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner:focus-visible .ai-v4-agent-banner-copy>span,
+    body[data-solution-key="ai-application"] #program .ai-v4-assessment-card .btn:is(:hover,:focus-visible){
+      background:linear-gradient(135deg,#f00022 0%,#d8001b 100%)!important;
+      box-shadow:0 18px 34px rgb(230 0 28/.3),0 6px 14px rgb(17 24 39/.12),inset 0 1px 0 rgb(255 255 255/.25)!important;
+      transform:translateY(-3px)!important;
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span:hover::before,
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner:focus-visible .ai-v4-agent-banner-copy>span::before{
+      opacity:.82;
+      transform:skewX(-18deg) translateX(360%);
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span:hover>img,
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner:focus-visible .ai-v4-agent-banner-copy>span>img,
+    body[data-solution-key="ai-application"] #program .ai-v4-assessment-card .btn:is(:hover,:focus-visible) .ai-v4-cta-arrow{
+      transform:translateX(3px)!important;
+    }
+    body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span:active,
+    body[data-solution-key="ai-application"] #program .ai-v4-assessment-card .btn:active{
+      transform:translateY(0) scale(.99)!important;
+    }
+    @media(prefers-reduced-motion:reduce){
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button,
+      body[data-solution-key="ai-application"] #model .ai-v4-layer-tabs button>img,
+      body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span,
+      body[data-solution-key="ai-application"] #program .ai-v4-agent-banner-copy>span::before,
+      body[data-solution-key="ai-application"] #program .ai-v4-cta-arrow{transition:none!important}
+    }
+    /* Browser comments 20260729 r: related-card hover matches education digital. */
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a{
+      transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:is(:hover,:focus-visible){
+      border-color:#efabb5!important;
+      box-shadow:0 18px 40px rgb(26 45 73/.08)!important;
+      transform:translateY(-3px)!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:is(:hover,:focus-visible)>img,
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:is(:hover,:focus-visible) .related-link img{
+      transform:none!important;
+    }
+    /* Browser comments 20260729 s: related-link spacing and arrow motion match education digital. */
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a{
+      transition:transform .32s cubic-bezier(.16,1,.3,1),border-color .25s ease,box-shadow .32s ease!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a>img{
+      transition:transform .55s cubic-bezier(.16,1,.3,1),filter .3s ease!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:is(:hover,:focus-visible){
+      border-color:rgb(230 0 28/.32)!important;
+      box-shadow:0 26px 58px rgb(25 42 63/.15)!important;
+      transform:translateY(-7px)!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:is(:hover,:focus-visible)>img{
+      filter:saturate(1.06) contrast(1.02)!important;
+      transform:scale(1.055)!important;
+    }
+    body[data-solution-key="ai-application"] #related .related-link{
+      gap:10px!important;
+      transition:color .22s ease,transform .22s ease!important;
+    }
+    body[data-solution-key="ai-application"] #related .related-link img{
+      margin:0!important;
+      transition:transform .28s cubic-bezier(.16,1,.3,1),filter .22s ease!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:is(:hover,:focus-visible) .related-link{
+      color:#bd0017!important;
+      transform:translateX(3px)!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:is(:hover,:focus-visible) .related-link img{
+      transform:translateX(6px) scale(1.06)!important;
+    }
+    body[data-solution-key="ai-application"] #related .ai-v4-related>a:active{
+      transform:translateY(-2px) scale(.995)!important;
+      transition-duration:.1s!important;
+    }
+  </style>
+<link rel="stylesheet" href="solution-related-unified.css?v=20260731type1">
+<link rel="stylesheet" href="solution-banner-accent.css?v=20260730">
+</head>
+<body data-page="solutions" data-solution-key="ai-application" data-solution-template="v3" data-solution-intent="AI智能体与应用服务">
+<main class="site">
+  <div id="site-header"></div>
+
+  <section class="detail-hero ai-v4-hero" id="top">
+    <div class="container ai-v4-breadcrumb-row">
+      <nav class="detail-breadcrumb" aria-label="面包屑"><a href="index.html"><iconify-icon icon="tabler:home" aria-hidden="true"></iconify-icon>首页</a><span>/</span><a href="solutions.html">解决方案</a><span>/</span><span aria-current="page">AI智能体与应用服务</span></nav>
+    </div>
+    <div class="container ai-v4-hero-card">
+      <div class="detail-hero-copy">
+        <h1>AI 智能体与应用服务</h1>
+        <p class="detail-hero-lead">以大模型与智能体技术为核心，推动业务流程智能化、组织知识资产化和决策科学化。</p>
+        
+        <div class="detail-audience" aria-label="适用对象"><span>教育行政部门</span><span>学校与教育机构</span><span>教师与教育工作者</span><span>企业与行业组织</span></div>
+      </div>
+      <figure class="detail-hero-visual"><img src="assets/related-solutions-candidates/related-bg-ai-application-v1.png" width="1827" height="861" fetchpriority="high" decoding="async" alt="知识库、智能体与业务工作流协同的磨砂玻璃三维示意"></figure>
+    </div>
+  </section>
+
+  <div class="detail-anchor-wrap">
+    <nav class="container detail-anchor-nav" data-detail-nav aria-label="本页章节"><a href="#overview" aria-current="true">方案概览</a><a href="#content">服务能力</a><a href="#model">平台架构</a><a href="#scenes">应用场景</a><a href="#delivery">实施路径</a><a href="#value">建设价值</a><a href="#program">开发服务</a><a href="#related">相关方案</a></nav>
+  </div>
+
+  <div class="ai-v4">
+    <section class="ai-v4-section ai-v4-overview" id="overview">
+      <div class="container">
+        <header class="ai-v4-heading ai-v4-heading-center"><h2>从高价值场景出发建设 AI 应用</h2><p>先识别流程中的真实机会，再连接知识、规则、工具与权限，避免 AI 应用停留在演示阶段。</p></header>
+        <div class="ai-v4-overview-grid">
+          <article tabindex="0"><figure><img src="assets/ai-v4/ai-application-overview-scene-1.webp" width="720" height="1080" loading="lazy" decoding="async" alt="场景不清与知识分散的三维示意"></figure><div><em>01</em><div><span>当前问题</span><h3>场景不清、知识分散，应用成效难评估</h3><p>单点工具无法稳定进入组织流程，也难以形成长期可复用能力。</p></div></div></article>
+          <article tabindex="0"><figure><img src="assets/ai-v4/ai-application-overview-scene-2.webp" width="720" height="1080" loading="lazy" decoding="async" alt="知识库、智能体、工作流与系统集成的三维示意"></figure><div><em>02</em><div><span>建设对象</span><h3>知识库、智能体、工作流与系统集成</h3><p>建设统一平台并提供咨询、开发、培训和持续运营服务。</p></div></div></article>
+          <article tabindex="0"><figure><img src="assets/ai-v4/ai-application-overview-scene-3.webp" width="720" height="1080" loading="lazy" decoding="async" alt="形成可运行可衡量 AI 应用的三维示意"></figure><div><em>03</em><div><span>最终结果</span><h3>形成可运行、可衡量的 AI 应用</h3><p>知识能够复用，流程得到提效，用户采用和业务结果可以持续评估。</p></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-v4-section ai-v4-soft" id="content">
+      <div class="container">
+        <header class="ai-v4-heading ai-v4-heading-center"><h2>四项服务能力覆盖应用全周期</h2><p>从场景规划到开发、集成和运营，确保智能体能够真正进入工作流程。</p></header>
+        <div class="ai-v4-card-grid ai-v4-card-grid-four">
+          <article tabindex="0"><span class="ai-v4-index">01</span><img src="assets/ai-v4/ai-application-card-1.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>AI 咨询与场景规划</h3><ul><li>应用成熟度诊断</li><li>业务流程与机会识别</li><li>场景优先级排序</li><li>实施规划与价值测算</li></ul></div></article>
+          <article tabindex="0"><span class="ai-v4-index">02</span><img src="assets/ai-v4/ai-application-card-2.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>AI 智能体开发</h3><ul><li>流程分析与梳理</li><li>知识库构建与治理</li><li>提示词设计与优化</li><li>智能体与工作流开发</li></ul></div></article>
+          <article tabindex="0"><span class="ai-v4-index">03</span><img src="assets/ai-v4/ai-application-card-3.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>AI 应用开发与落地</h3><ul><li>业务场景应用开发</li><li>系统与接口集成</li><li>多端应用支持</li><li>性能优化与效果评估</li></ul></div></article>
+          <article tabindex="0"><span class="ai-v4-index">04</span><img src="assets/ai-v4/ai-application-card-4.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>AI 培训与运营</h3><ul><li>AI 认知与工具培训</li><li>智能体使用训练</li><li>项目辅导与应用推广</li><li>持续运营与效果优化</li></ul></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-v4-section" id="model">
+      <div class="container">
+        <header class="ai-v4-heading ai-v4-model-heading"><h2>统一平台沉淀组织级 AI 能力</h2><p>知识、智能体、应用编排和模型能力统一管理，并提供安全治理与开放集成。</p></header>
+        <div class="ai-v4-layer-tabs" role="tablist" aria-label="AI 平台能力层级">
+          <button type="button" role="tab" aria-selected="true" data-ai-layer="knowledge"><span>01</span><img src="assets/ai-v4/ai-application-platform-bg-1.webp" width="760" height="1120" loading="lazy" decoding="async" alt=""><div><strong>知识与智能体</strong><p>AI 知识库中心</p><p>AI 智能体管理中心</p><p>AI 应用编排中心</p></div></button>
+          <button type="button" role="tab" aria-selected="false" data-ai-layer="model"><span>02</span><img src="assets/ai-v4/ai-application-platform-bg-2.webp" width="760" height="1120" loading="lazy" decoding="async" alt=""><div><strong>模型与能力</strong><p>大模型接入</p><p>向量检索与 RAG</p><p>知识图谱</p><p>模型评估</p><p>多模态能力</p><p>场景模板管理</p></div></button>
+          <button type="button" role="tab" aria-selected="false" data-ai-layer="governance"><span>03</span><img src="assets/ai-v4/ai-application-platform-bg-3.webp" width="760" height="1120" loading="lazy" decoding="async" alt=""><div><strong>治理与集成</strong><p>数据权限与脱敏</p><p>日志审计与追溯</p><p>私有化部署支持</p><p>标准 API 开放</p><p>业务系统集成</p><p>插件与生态扩展</p></div></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-v4-section ai-v4-soft" id="scenes">
+      <div class="container">
+        <header class="ai-v4-heading ai-v4-heading-center"><h2>四类场景连接教学、办公与行业业务</h2><p>应用场景根据组织流程和知识基础选择，不以工具清单替代需求分析。</p></header>
+        <div class="ai-v4-card-grid ai-v4-card-grid-four">
+          <article tabindex="0"><span class="ai-v4-index">01</span><img src="assets/ai-v4/ai-application-card-5.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>教育教学场景</h3><ul><li>备课、课件与作业助手</li><li>教研方案与案例分析</li><li>培训方案与学习伴侣</li><li>教育管理与报表分析</li></ul></div></article>
+          <article tabindex="0"><span class="ai-v4-index">02</span><img src="assets/ai-v4/ai-application-card-6.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>管理办公场景</h3><ul><li>公文写作与润色</li><li>会议纪要与总结</li><li>报表整理与生成</li><li>制度与流程问答</li></ul></div></article>
+          <article tabindex="0"><span class="ai-v4-index">03</span><img src="assets/ai-v4/ai-application-card-7.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>客户服务场景</h3><ul><li>智能问答与工单处理</li><li>内容生成与活动策划</li><li>销售话术与跟进分析</li><li>数据洞察与预测建议</li></ul></div></article>
+          <article tabindex="0"><span class="ai-v4-index">04</span><img src="assets/ai-v4/ai-application-card-8.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><h3>行业定制场景</h3><ul><li>教育大脑研究分析</li><li>区域治理决策支持</li><li>企业合规与风控</li><li>科研与文献辅助</li></ul></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-v4-section" id="delivery">
+      <div class="container">
+        <header class="ai-v4-heading"><h2>五个阶段推动应用从试点进入运营</h2><p>每个阶段都产出可检查的结果，持续根据用户反馈和效果指标迭代。</p></header>
+        <ol class="ai-v4-step-grid ai-v4-step-grid-five">
+          <li><span>01</span><img src="assets/ai-v4/ai-application-step-1.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><strong>现状诊断</strong><p>调研需求与流程，识别 AI 应用机会。</p></div></li>
+          <li><span>02</span><img src="assets/ai-v4/ai-application-step-2.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><strong>方案设计</strong><p>完成场景、智能体、知识库与实施规划。</p></div></li>
+          <li><span>03</span><img src="assets/ai-v4/ai-application-step-3.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><strong>开发建设</strong><p>构建知识库和智能体，完成集成与测试。</p></div></li>
+          <li><span>04</span><img src="assets/ai-v4/ai-application-step-4.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><strong>应用推广</strong><p>开展用户培训、试点应用与反馈优化。</p></div></li>
+          <li><span>05</span><img src="assets/ai-v4/ai-application-step-5.webp" width="420" height="420" loading="lazy" decoding="async" alt=""><div><strong>持续运营</strong><p>评估效果，更新知识并扩展应用能力。</p></div></li>
+        </ol>
+        <div class="ai-v4-mode"><strong>合作方式</strong><div><span><img src="assets/iconify-tabler-code-red.svg" alt="" aria-hidden="true"><b>项目定制开发</b></span><span><img src="assets/iconify-tabler-cloud-code-red.svg" alt="" aria-hidden="true"><b>平台订阅服务</b></span><span><img src="assets/iconify-tabler-users-group-red.svg" alt="" aria-hidden="true"><b>联合运营共建</b></span><span><img src="assets/iconify-tabler-affiliate-red.svg" alt="" aria-hidden="true"><b>生态合作</b></span></div></div>
+      </div>
+    </section>
+
+    <section class="ai-v4-section ai-v4-soft" id="value">
+      <div class="container">
+        <header class="ai-v4-heading ai-v4-heading-center"><h2>用业务指标检验 AI 应用价值</h2><p>不只检查功能是否上线，还要持续衡量效率、成本、采用体验和业务结果。</p></header>
+        <div class="ai-v4-value-grid">
+          <article tabindex="0"><img src="assets/ai-v4/ai-application-value-1-bluegray-v3.webp" width="1250" height="678" loading="lazy" decoding="async" alt=""><div><span>01</span><h3>效率提升</h3><p>衡量重复劳动减少、任务耗时变化和流程周转效率。</p></div></article>
+          <article tabindex="0"><img src="assets/ai-v4/ai-application-value-2-bluegray-v3.webp" width="1250" height="678" loading="lazy" decoding="async" alt=""><div><span>02</span><h3>成本节约</h3><p>分析资源配置、人工投入、重复建设与运营成本变化。</p></div></article>
+          <article tabindex="0"><img src="assets/ai-v4/ai-application-value-3-bluegray-v3.webp" width="1250" height="678" loading="lazy" decoding="async" alt=""><div><span>03</span><h3>用户满意度</h3><p>跟踪使用率、任务完成质量、反馈和持续采用情况。</p></div></article>
+          <article tabindex="0"><img src="assets/ai-v4/ai-application-value-4-bluegray-v3.webp" width="1250" height="678" loading="lazy" decoding="async" alt=""><div><span>04</span><h3>业务增长分析</h3><p>评估服务能力、知识复用、创新产出和业务改善结果。</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-v4-section ai-v4-program" id="program">
+      <div class="container">
+        <header class="ai-v4-heading ai-v4-program-heading"><h2>从场景评估到智能体开发落地</h2><p>先判断优先场景，再完成知识库、智能体编排与系统集成，形成可运行、可衡量的业务应用。</p></header>
+        <div class="ai-v4-conversion-grid">
+          <a class="ai-v4-agent-banner" href="ai-tools.html">
+            <div class="ai-v4-agent-banner-copy">
+              <small>智能体开发服务</small>
+              <h2>让智能体进入真实业务流程</h2>
+              <p>从场景梳理、知识库建设到应用编排和系统集成，进一步了解智能体开发服务。</p>
+              <span>查看智能体开发 <img src="assets/iconify-tabler-arrow-right-white.svg" width="18" height="18" alt="" aria-hidden="true"></span>
+            </div>
+            <img src="assets/ai-v4/ai-application-agent-workflow-bluegray-v3.webp" width="1536" height="800" loading="lazy" decoding="async" alt="">
+          </a>
+          <aside class="ai-v4-assessment-card">
+            <img src="assets/ai-v4/ai-application-assessment-bluegray-v3.webp" width="1536" height="800" loading="lazy" decoding="async" alt="">
+            <div class="ai-v4-agent-banner-copy ai-v4-assessment-copy">
+              <small>AI 场景评估</small>
+              <h2>需要判断哪些 AI 场景值得先做？</h2>
+              <p>从业务流程、知识基础、使用角色和价值指标开始评估。</p>
+              <a class="btn" href="#lead-form">申请场景评估 <img class="ai-v4-cta-arrow" src="assets/iconify-tabler-arrow-right-white.svg" width="18" height="18" alt="" aria-hidden="true"></a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-v4-section ai-v4-soft" id="related">
+      <div class="container">
+        <header class="ai-v4-heading"><h2>继续了解相关方案</h2></header>
+        <div class="detail-related ai-v4-related">
+          <a href="solution-ai-talent.html"><div><small>上一项</small><strong>AI 课程与人才培养</strong><span class="related-link">查看方案 <img src="assets/iconify-tabler-arrow-right-red.svg" alt="" aria-hidden="true"></span></div><img src="assets/related-solutions-candidates/related-bg-ai-talent-v1.png" width="1825" height="862" loading="lazy" decoding="async" alt=""></a>
+          <a href="solution-digital.html"><div><small>相关基础</small><strong>教育数字化建设</strong><span class="related-link">查看方案 <img src="assets/iconify-tabler-arrow-right-red.svg" alt="" aria-hidden="true"></span></div><img src="assets/related-solutions-candidates/related-bg-digital-v1.png" width="1828" height="860" loading="lazy" decoding="async" alt=""></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <div id="site-footer"></div>
+</main>
+<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+<script src="script.js?v=20260728ai4"></script>
+<script src="solution-detail.js?v=20260729order1"></script>
+<script src="solution-ai-v4.js?v=20260729h"></script>
+</body>
+</html>

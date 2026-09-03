@@ -1,0 +1,3 @@
+@import url("case-detail-v2-base.css");
+.story-v2{padding-top:116px}
+@media(max-width:759px){.story-v2{padding-top:96px}}

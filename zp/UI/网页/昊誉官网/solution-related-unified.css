@@ -1,0 +1,33 @@
+/* Keep related-solution cards the same height across all five solution pages. */
+body[data-solution-key] #related .detail-related > a {
+  box-sizing: border-box !important;
+  height: 228px !important;
+  min-height: 228px !important;
+  padding: 0 !important;
+}
+
+body[data-solution-key] #related .detail-related > a > div {
+  box-sizing: border-box !important;
+  height: 100% !important;
+  min-height: 100% !important;
+}
+
+/* Unified related-card typography across all five solution pages. */
+body[data-solution-key] #related .detail-related small {
+  font-size: 14px !important;
+}
+
+body[data-solution-key] #related .detail-related strong {
+  font-size: 28px !important;
+}
+
+body[data-solution-key] #related .detail-related .related-link {
+  font-size: 14px !important;
+}
+
+@media (max-width: 760px) {
+  body[data-solution-key] #related .detail-related > a {
+    height: 210px !important;
+    min-height: 210px !important;
+  }
+}

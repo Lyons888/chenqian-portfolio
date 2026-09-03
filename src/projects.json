@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "mood",
+    "title": "心情气象台",
+    "en": "A little care, every day.",
+    "category": "UI / UX",
+    "type": "移动端体验",
+    "color": "#d7e8d8",
+    "description": "把抽象的心情，变成看得见的天气。以柔和的绿色、富有情绪的天气角色，串联心情记录、测评与个人档案，让每一次自我觉察都更轻松。",
+    "images": [
+      {
+        "src": "assets/works/110.webp",
+        "thumb": "assets/works/110-thumb.webp",
+        "title": "home-default",
+        "width": 457,
+        "height": 1064
+      },
+      {
+        "src": "assets/works/113.webp",
+        "thumb": "assets/works/113-thumb.webp",
+        "title": "home-sun",
+        "width": 457,
+        "height": 1104
+      },
+      {
+        "src": "assets/works/109.webp",
+        "thumb": "assets/works/109-thumb.webp",
+        "title": "home-cloudy",
+        "width": 457,
+        "height": 1104
+      },
+      {
+        "src": "assets/works/111.webp",
+        "thumb": "assets/works/111-thumb.webp",
+        "title": "home-rain",
+        "width": 377,
+        "height": 1024
+      },
+      {
+        "src": "assets/works/112.webp",
+        "thumb": "assets/works/112-thumb.webp",
+        "title": "home-storm",
+        "width": 457,
+        "height": 1104
+      },
+      {
+        "src": "assets/works/130.webp",
+        "thumb": "assets/works/130-thumb.webp",
+        "title": "test-intro",
+        "width": 376,
+        "height": 925
+      },
+      {
+        "src": "assets/works/131.webp",
+        "thumb": "assets/works/131-thumb.webp",
+        "title": "test-q1",
+        "width": 412,
+        "height": 925
+      },
+      {
+        "src": "assets/works/132.webp",
+        "thumb": "assets/works/132-thumb.webp",
+        "title": "test-q2",
+        "width": 412,
+        "height": 925
+      },
+      {
+        "src": "assets/works/133.webp",
+        "thumb": "assets/works/133-thumb.webp",
+        "title": "test-q3",
+        "width": 412,
+        "height": 925
+      },
+      {
+        "src": "assets/works/134.webp",
+        "thumb": "assets/works/134-thumb.webp",
+        "title": "test-q4",
+        "width": 412,
+        "height": 925
+      },
+      {
+        "src": "assets/works/135.webp",
+        "thumb": "assets/works/135-thumb.webp",
+        "title": "test-q5",
+        "width": 412,
+        "height": 925
+      },
+      {
+        "src": "assets/works/136.webp",
+        "thumb": "assets/works/136-thumb.webp",
+        "title": "test-q6",
+        "width": 412,
+        "height": 925
+      },
+      {
+        "src": "assets/works/118.webp",
+        "thumb": "assets/works/118-thumb.webp",
+        "title": "result-sun-screen",
+        "width": 377,
+        "height": 1474
+      },
+      {
+        "src": "assets/works/114.webp",
+        "thumb": "assets/works/114-thumb.webp",
+        "title": "archive-screen",
+        "width": 377,
+        "height": 1461
+      },
+      {
+        "src": "assets/works/115.webp",
+        "thumb": "assets/works/115-thumb.webp",
+        "title": "result-cloudy-screen",
+        "width": 377,
+        "height": 1474
+      },
+      {
+        "src": "assets/works/116.webp",
+        "thumb": "assets/works/116-thumb.webp",
+        "title": "result-rain-screen",
+        "width": 377,
+        "height": 1474
+      },
+      {
+        "src": "assets/works/117.webp",
+        "thumb": "assets/works/117-thumb.webp",
+        "title": "result-storm-screen",
+        "width": 377,
+        "height": 1474
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/110.webp",
+        "thumb": "assets/works/110-thumb.webp",
+        "title": "home-default",
+        "width": 457,
+        "height": 1064
+      },
+      {
+        "src": "assets/works/113.webp",
+        "thumb": "assets/works/113-thumb.webp",
+        "title": "home-sun",
+        "width": 457,
+        "height": 1104
+      },
+      {
+        "src": "assets/works/130.webp",
+        "thumb": "assets/works/130-thumb.webp",
+        "title": "test-intro",
+        "width": 376,
+        "height": 925
+      }
+    ],
+    "href": "zp/UI/移动端/心情气象台/心情气象台/index.html",
+    "scope": [
+      "界面设计",
+      "交互体验",
+      "视觉语言"
+    ]
+  },
+  {
+    "id": "chengda",
+    "title": "成达 · 企业文化视觉",
+    "en": "Culture, with character.",
+    "category": "品牌视觉",
+    "type": "品牌识别 / 编辑设计",
+    "color": "#f6c939",
+    "description": "从企业理念到视觉表达，用鲜明的色彩、图形与有节奏的版式，将企业文化转译为直观、亲切的阅读体验。设计延伸至文化手册、书签与空间物料。",
+    "images": [
+      {
+        "src": "assets/works/009.webp",
+        "thumb": "assets/works/009-thumb.webp",
+        "title": "企业文化手册10.8-01",
+        "width": 1800,
+        "height": 2400
+      },
+      {
+        "src": "assets/works/010.webp",
+        "thumb": "assets/works/010-thumb.webp",
+        "title": "企业文化手册10.8-02",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/011.webp",
+        "thumb": "assets/works/011-thumb.webp",
+        "title": "企业文化手册10.8-03",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/012.webp",
+        "thumb": "assets/works/012-thumb.webp",
+        "title": "企业文化手册10.8-04",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/013.webp",
+        "thumb": "assets/works/013-thumb.webp",
+        "title": "企业文化手册10.8-05",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/014.webp",
+        "thumb": "assets/works/014-thumb.webp",
+        "title": "企业文化手册10.8-06",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/015.webp",
+        "thumb": "assets/works/015-thumb.webp",
+        "title": "企业文化手册10.8-07",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/016.webp",
+        "thumb": "assets/works/016-thumb.webp",
+        "title": "企业文化手册10.8-08",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/017.webp",
+        "thumb": "assets/works/017-thumb.webp",
+        "title": "企业文化手册10.8-09",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/018.webp",
+        "thumb": "assets/works/018-thumb.webp",
+        "title": "企业文化手册10.8-10",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/019.webp",
+        "thumb": "assets/works/019-thumb.webp",
+        "title": "企业文化手册10.8-11",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/020.webp",
+        "thumb": "assets/works/020-thumb.webp",
+        "title": "企业文化手册10.8-12",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/021.webp",
+        "thumb": "assets/works/021-thumb.webp",
+        "title": "企业文化手册10.8-13",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/022.webp",
+        "thumb": "assets/works/022-thumb.webp",
+        "title": "企业文化手册10.8-14",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/023.webp",
+        "thumb": "assets/works/023-thumb.webp",
+        "title": "企业文化手册10.8-15",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/024.webp",
+        "thumb": "assets/works/024-thumb.webp",
+        "title": "企业文化手册10.8-16",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/025.webp",
+        "thumb": "assets/works/025-thumb.webp",
+        "title": "成达集团（横版）",
+        "width": 1030,
+        "height": 246
+      },
+      {
+        "src": "assets/works/026.webp",
+        "thumb": "assets/works/026-thumb.webp",
+        "title": "成达集团（竖版）",
+        "width": 751,
+        "height": 483
+      },
+      {
+        "src": "assets/works/008.webp",
+        "thumb": "assets/works/008-thumb.webp",
+        "title": "书签-01",
+        "width": 1800,
+        "height": 1218
+      },
+      {
+        "src": "assets/works/028.webp",
+        "thumb": "assets/works/028-thumb.webp",
+        "title": "文化墙3_画板 1",
+        "width": 1800,
+        "height": 635
+      },
+      {
+        "src": "assets/works/027.webp",
+        "thumb": "assets/works/027-thumb.webp",
+        "title": "招聘海报1",
+        "width": 1242,
+        "height": 2688
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/014.webp",
+        "thumb": "assets/works/014-thumb.webp",
+        "title": "企业文化手册10.8-06",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/015.webp",
+        "thumb": "assets/works/015-thumb.webp",
+        "title": "企业文化手册10.8-07",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "assets/works/019.webp",
+        "thumb": "assets/works/019-thumb.webp",
+        "title": "企业文化手册10.8-11",
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "href": "zp/Graphic/vi/成达/成达控股集团vi(v1.0).pdf",
+    "scope": [
+      "品牌视觉",
+      "画册设计",
+      "物料延展"
+    ]
+  },
+  {
+    "id": "festival",
+    "title": "节日的另一种表达",
+    "en": "Moments worth seeing.",
+    "category": "平面设计",
+    "type": "节日海报 / 品牌传播",
+    "color": "#e7e1d4",
+    "description": "让每一个节日，都有自己的视觉记忆。将端午、元宵、新年与教师节的文化意象，融入不同品牌的表达，探索从清雅国风到立体光影的丰富可能。",
+    "images": [
+      {
+        "src": "assets/works/059.webp",
+        "thumb": "assets/works/059-thumb.webp",
+        "title": "种棵树3",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/052.webp",
+        "thumb": "assets/works/052-thumb.webp",
+        "title": "昊誉 (2)",
+        "width": 852,
+        "height": 1846
+      },
+      {
+        "src": "assets/works/058.webp",
+        "thumb": "assets/works/058-thumb.webp",
+        "title": "种棵树2",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/037.webp",
+        "thumb": "assets/works/037-thumb.webp",
+        "title": "二师在线2",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/040.webp",
+        "thumb": "assets/works/040-thumb.webp",
+        "title": "元宵节海报-昊誉",
+        "width": 750,
+        "height": 1608
+      },
+      {
+        "src": "assets/works/036.webp",
+        "thumb": "assets/works/036-thumb.webp",
+        "title": "二师在线",
+        "width": 854,
+        "height": 1842
+      },
+      {
+        "src": "assets/works/047.webp",
+        "thumb": "assets/works/047-thumb.webp",
+        "title": "师言",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/051.webp",
+        "thumb": "assets/works/051-thumb.webp",
+        "title": "教能",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/054.webp",
+        "thumb": "assets/works/054-thumb.webp",
+        "title": "昊誉",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/057.webp",
+        "thumb": "assets/works/057-thumb.webp",
+        "title": "种棵树",
+        "width": 854,
+        "height": 1842
+      },
+      {
+        "src": "assets/works/048.webp",
+        "thumb": "assets/works/048-thumb.webp",
+        "title": "师言文化 (2)",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/041.webp",
+        "thumb": "assets/works/041-thumb.webp",
+        "title": "元宵节海报-种棵树1",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/039.webp",
+        "thumb": "assets/works/039-thumb.webp",
+        "title": "元宵节海报-教能",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/042.webp",
+        "thumb": "assets/works/042-thumb.webp",
+        "title": "元旦海报-昊誉 (2)",
+        "width": 750,
+        "height": 1623
+      },
+      {
+        "src": "assets/works/043.webp",
+        "thumb": "assets/works/043-thumb.webp",
+        "title": "元旦海报-昊誉a",
+        "width": 750,
+        "height": 1623
+      },
+      {
+        "src": "assets/works/044.webp",
+        "thumb": "assets/works/044-thumb.webp",
+        "title": "元旦海报-种棵树 (2)",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/045.webp",
+        "thumb": "assets/works/045-thumb.webp",
+        "title": "师言-新年海报",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/046.webp",
+        "thumb": "assets/works/046-thumb.webp",
+        "title": "师言-新年海报1",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/049.webp",
+        "thumb": "assets/works/049-thumb.webp",
+        "title": "教能-新年海报",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/050.webp",
+        "thumb": "assets/works/050-thumb.webp",
+        "title": "教能-新年海报",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/053.webp",
+        "thumb": "assets/works/053-thumb.webp",
+        "title": "昊誉-新年海报",
+        "width": 750,
+        "height": 1656
+      },
+      {
+        "src": "assets/works/055.webp",
+        "thumb": "assets/works/055-thumb.webp",
+        "title": "校园AI知识库(加logo)",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/056.webp",
+        "thumb": "assets/works/056-thumb.webp",
+        "title": "种棵树-新年海报",
+        "width": 750,
+        "height": 1624
+      },
+      {
+        "src": "assets/works/035.webp",
+        "thumb": "assets/works/035-thumb.webp",
+        "title": "二师-新年海报",
+        "width": 750,
+        "height": 1624
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/059.webp",
+        "thumb": "assets/works/059-thumb.webp",
+        "title": "种棵树3",
+        "width": 853,
+        "height": 1844
+      },
+      {
+        "src": "assets/works/052.webp",
+        "thumb": "assets/works/052-thumb.webp",
+        "title": "昊誉 (2)",
+        "width": 852,
+        "height": 1846
+      },
+      {
+        "src": "assets/works/058.webp",
+        "thumb": "assets/works/058-thumb.webp",
+        "title": "种棵树2",
+        "width": 853,
+        "height": 1844
+      }
+    ],
+    "scope": [
+      "海报设计",
+      "视觉创意",
+      "品牌传播"
+    ]
+  },
+  {
+    "id": "ip",
+    "title": "二师在线 · 生长的想象",
+    "en": "A friendly face for learning.",
+    "category": "IP / 插画",
+    "type": "IP 形象 / 角色探索",
+    "color": "#dcebc8",
+    "description": "以萌芽与成长为灵感，探索教育品牌的角色语言。从线稿、表情与造型推敲，到立体形象表现，让品牌拥有更容易亲近、也更容易记住的面孔。",
+    "images": [
+      {
+        "src": "assets/works/000.webp",
+        "thumb": "assets/works/000-thumb.webp",
+        "title": "3D",
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "src": "assets/works/004.webp",
+        "thumb": "assets/works/004-thumb.webp",
+        "title": "二师在线卡通形象_画板 1",
+        "width": 1445,
+        "height": 2028
+      },
+      {
+        "src": "assets/works/002.webp",
+        "thumb": "assets/works/002-thumb.webp",
+        "title": "二师在线卡通形象_画板 1 副本 2",
+        "width": 1445,
+        "height": 2028
+      },
+      {
+        "src": "assets/works/003.webp",
+        "thumb": "assets/works/003-thumb.webp",
+        "title": "二师在线卡通形象_画板 1 副本",
+        "width": 1445,
+        "height": 2028
+      },
+      {
+        "src": "assets/works/001.webp",
+        "thumb": "assets/works/001-thumb.webp",
+        "title": "IP方案1",
+        "width": 1538,
+        "height": 7194
+      },
+      {
+        "src": "assets/works/005.webp",
+        "thumb": "assets/works/005-thumb.webp",
+        "title": "羊博士_画板 1",
+        "width": 1800,
+        "height": 1561
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/000.webp",
+        "thumb": "assets/works/000-thumb.webp",
+        "title": "3D",
+        "width": 1448,
+        "height": 1086
+      }
+    ],
+    "scope": [
+      "IP 形象",
+      "角色设计",
+      "三维视觉"
+    ]
+  },
+  {
+    "id": "data",
+    "title": "让教育数据，被看见",
+    "en": "Complexity, made clear.",
+    "category": "UI / UX",
+    "type": "数据可视化 / 网页设计",
+    "color": "#13253c",
+    "description": "围绕省继教平台的数据运营，将平台概况与网站流量整合为具有空间层次的信息视图。借助地图、数据图表与明确的信息分区，建立清晰的阅读路径。",
+    "images": [
+      {
+        "src": "assets/works/156.webp",
+        "thumb": "assets/works/156-thumb.webp",
+        "title": "1.省级首页",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "src": "assets/works/157.webp",
+        "thumb": "assets/works/157-thumb.webp",
+        "title": "网站访问流量分析",
+        "width": 1800,
+        "height": 1013
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/156.webp",
+        "thumb": "assets/works/156-thumb.webp",
+        "title": "1.省级首页",
+        "width": 1800,
+        "height": 1013
+      }
+    ],
+    "scope": [
+      "数据可视化",
+      "信息层级",
+      "界面设计"
+    ]
+  },
+  {
+    "id": "forum",
+    "title": "粤教强师 · 视觉现场",
+    "en": "One event. One visual voice.",
+    "category": "平面设计",
+    "type": "活动主视觉 / 物料系统",
+    "color": "#1953e5",
+    "description": "围绕第三届“粤教强师”论坛，建立从主视觉到现场物料的一致表达。蓝色科技感贯穿背景、直播画面、活动指南、欢迎牌与参会证件，让视觉在不同媒介中保持连贯。",
+    "images": [
+      {
+        "src": "assets/works/073.webp",
+        "thumb": "assets/works/073-thumb.webp",
+        "title": "背景喷绘-4.5x2",
+        "width": 1800,
+        "height": 1000
+      },
+      {
+        "src": "assets/works/072.webp",
+        "thumb": "assets/works/072-thumb.webp",
+        "title": "直播背景",
+        "width": 1800,
+        "height": 1000
+      },
+      {
+        "src": "assets/works/070.webp",
+        "thumb": "assets/works/070-thumb.webp",
+        "title": "活动指南封面-01",
+        "width": 1800,
+        "height": 1273
+      },
+      {
+        "src": "assets/works/069.webp",
+        "thumb": "assets/works/069-thumb.webp",
+        "title": "欢迎牌（0.8x1.3m）_画板 1",
+        "width": 1800,
+        "height": 2925
+      },
+      {
+        "src": "assets/works/066.webp",
+        "thumb": "assets/works/066-thumb.webp",
+        "title": "参会证（35x52cm）_参会证正面",
+        "width": 1800,
+        "height": 2674
+      },
+      {
+        "src": "assets/works/067.webp",
+        "thumb": "assets/works/067-thumb.webp",
+        "title": "工作人员证（35x52cm）_工作证2",
+        "width": 1800,
+        "height": 2674
+      },
+      {
+        "src": "assets/works/068.webp",
+        "thumb": "assets/works/068-thumb.webp",
+        "title": "座位牌20x10.5cm-01",
+        "width": 1800,
+        "height": 2671
+      },
+      {
+        "src": "assets/works/071.webp",
+        "thumb": "assets/works/071-thumb.webp",
+        "title": "海报长图(终2)",
+        "width": 1080,
+        "height": 9511
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/073.webp",
+        "thumb": "assets/works/073-thumb.webp",
+        "title": "背景喷绘-4.5x2",
+        "width": 1800,
+        "height": 1000
+      },
+      {
+        "src": "assets/works/066.webp",
+        "thumb": "assets/works/066-thumb.webp",
+        "title": "参会证（35x52cm）_参会证正面",
+        "width": 1800,
+        "height": 2674
+      }
+    ],
+    "scope": [
+      "活动视觉",
+      "物料设计",
+      "跨媒介延展"
+    ]
+  },
+  {
+    "id": "teacher",
+    "title": "名师讲堂",
+    "en": "A space to learn and grow.",
+    "category": "UI / UX",
+    "type": "教育产品 / 移动端",
+    "color": "#d4e6df",
+    "description": "围绕教师学习与研修场景，梳理课程、名师、直播、通知与个人中心等界面。以清晰的信息组织和统一的绿色视觉，为持续学习构建易于使用的移动端体验。",
+    "images": [
+      {
+        "src": "assets/works/090.webp",
+        "thumb": "assets/works/090-thumb.webp",
+        "title": "首页",
+        "width": 786,
+        "height": 5582
+      },
+      {
+        "src": "assets/works/077.webp",
+        "thumb": "assets/works/077-thumb.webp",
+        "title": "名师",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/078.webp",
+        "thumb": "assets/works/078-thumb.webp",
+        "title": "名师详情",
+        "width": 786,
+        "height": 2108
+      },
+      {
+        "src": "assets/works/076.webp",
+        "thumb": "assets/works/076-thumb.webp",
+        "title": "专题研修",
+        "width": 786,
+        "height": 2596
+      },
+      {
+        "src": "assets/works/084.webp",
+        "thumb": "assets/works/084-thumb.webp",
+        "title": "智慧空间",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/082.webp",
+        "thumb": "assets/works/082-thumb.webp",
+        "title": "我的",
+        "width": 786,
+        "height": 1732
+      },
+      {
+        "src": "assets/works/086.webp",
+        "thumb": "assets/works/086-thumb.webp",
+        "title": "课程详情-评价",
+        "width": 786,
+        "height": 2152
+      },
+      {
+        "src": "assets/works/087.webp",
+        "thumb": "assets/works/087-thumb.webp",
+        "title": "通知",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/083.webp",
+        "thumb": "assets/works/083-thumb.webp",
+        "title": "推荐中心",
+        "width": 786,
+        "height": 1758
+      },
+      {
+        "src": "assets/works/088.webp",
+        "thumb": "assets/works/088-thumb.webp",
+        "title": "闪屏",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/079.webp",
+        "thumb": "assets/works/079-thumb.webp",
+        "title": "引导1",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/080.webp",
+        "thumb": "assets/works/080-thumb.webp",
+        "title": "引导2",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/081.webp",
+        "thumb": "assets/works/081-thumb.webp",
+        "title": "引导3",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/089.webp",
+        "thumb": "assets/works/089-thumb.webp",
+        "title": "首页-成为推荐官弹窗",
+        "width": 786,
+        "height": 2688
+      },
+      {
+        "src": "assets/works/085.webp",
+        "thumb": "assets/works/085-thumb.webp",
+        "title": "直播",
+        "width": 786,
+        "height": 4340
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/090.webp",
+        "thumb": "assets/works/090-thumb.webp",
+        "title": "首页",
+        "width": 786,
+        "height": 5582
+      },
+      {
+        "src": "assets/works/077.webp",
+        "thumb": "assets/works/077-thumb.webp",
+        "title": "名师",
+        "width": 786,
+        "height": 1704
+      },
+      {
+        "src": "assets/works/084.webp",
+        "thumb": "assets/works/084-thumb.webp",
+        "title": "智慧空间",
+        "width": 786,
+        "height": 1704
+      }
+    ],
+    "scope": [
+      "UI 设计",
+      "移动端体验",
+      "界面规范"
+    ]
+  },
+  {
+    "id": "haoyu",
+    "title": "昊誉信息 · 数字形象",
+    "en": "Education meets possibility.",
+    "category": "UI / UX",
+    "type": "企业官网 / 数字体验",
+    "color": "#dfe8f1",
+    "description": "以教育数智化与 AI 应用为内容主线，组织企业服务、解决方案与案例内容。在品牌呈现与信息获取之间，建立更清晰的数字沟通界面。",
+    "images": [],
+    "cover": [],
+    "href": "zp/UI/网页/昊誉官网/index.html",
+    "scope": [
+      "网页设计",
+      "数字品牌",
+      "交互呈现"
+    ]
+  },
+  {
+    "id": "identity",
+    "title": "品牌，从一个符号开始",
+    "en": "Small marks. Lasting identities.",
+    "category": "品牌视觉",
+    "type": "标志设计 / 视觉探索",
+    "color": "#e1e3dc",
+    "description": "从教育、文化到影像品牌，以简洁的符号、文字组合与色彩探索不同的品牌性格。作品包含种棵树教育、成达学堂、师通易与儿时影像工作室等标志方案。",
+    "images": [
+      {
+        "src": "assets/works/030.webp",
+        "thumb": "assets/works/030-thumb.webp",
+        "title": "种棵树教育logog-01",
+        "width": 1044,
+        "height": 334
+      },
+      {
+        "src": "assets/works/031.webp",
+        "thumb": "assets/works/031-thumb.webp",
+        "title": "种棵树教育logog-02",
+        "width": 1044,
+        "height": 333
+      },
+      {
+        "src": "assets/works/032.webp",
+        "thumb": "assets/works/032-thumb.webp",
+        "title": "种棵树教育logog-03",
+        "width": 1044,
+        "height": 334
+      },
+      {
+        "src": "assets/works/029.webp",
+        "thumb": "assets/works/029-thumb.webp",
+        "title": "logo定稿_画板 1",
+        "width": 1366,
+        "height": 768
+      },
+      {
+        "src": "assets/works/007.webp",
+        "thumb": "assets/works/007-thumb.webp",
+        "title": "师-03",
+        "width": 1800,
+        "height": 563
+      },
+      {
+        "src": "assets/works/006.webp",
+        "thumb": "assets/works/006-thumb.webp",
+        "title": "儿时logo定稿-01",
+        "width": 704,
+        "height": 613
+      },
+      {
+        "src": "assets/works/033.webp",
+        "thumb": "assets/works/033-thumb.webp",
+        "title": "背景墙_画板 1 副本 4",
+        "width": 1800,
+        "height": 978
+      },
+      {
+        "src": "assets/works/034.webp",
+        "thumb": "assets/works/034-thumb.webp",
+        "title": "背景墙_画板 1 副本 5",
+        "width": 1800,
+        "height": 978
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/030.webp",
+        "thumb": "assets/works/030-thumb.webp",
+        "title": "种棵树教育logog-01",
+        "width": 1044,
+        "height": 334
+      },
+      {
+        "src": "assets/works/029.webp",
+        "thumb": "assets/works/029-thumb.webp",
+        "title": "logo定稿_画板 1",
+        "width": 1366,
+        "height": 768
+      }
+    ],
+    "scope": [
+      "标志设计",
+      "色彩系统",
+      "品牌表达"
+    ]
+  },
+  {
+    "id": "care",
+    "title": "关于成长，也关于陪伴",
+    "en": "Design that starts a conversation.",
+    "category": "平面设计",
+    "type": "心理健康 / 系列海报",
+    "color": "#f0dac7",
+    "description": "围绕家庭教育与心理健康主题，用情境插画和信息对比组织内容，将关怀、理解与沟通转化为易于阅读的系列海报。",
+    "images": [
+      {
+        "src": "assets/works/060.webp",
+        "thumb": "assets/works/060-thumb.webp",
+        "title": "hb1",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/works/061.webp",
+        "thumb": "assets/works/061-thumb.webp",
+        "title": "hb2",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/works/062.webp",
+        "thumb": "assets/works/062-thumb.webp",
+        "title": "hb3",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/works/063.webp",
+        "thumb": "assets/works/063-thumb.webp",
+        "title": "hb4",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/works/064.webp",
+        "thumb": "assets/works/064-thumb.webp",
+        "title": "hb5",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/works/065.webp",
+        "thumb": "assets/works/065-thumb.webp",
+        "title": "hb长图",
+        "width": 1041,
+        "height": 13000
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/060.webp",
+        "thumb": "assets/works/060-thumb.webp",
+        "title": "hb1",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/works/061.webp",
+        "thumb": "assets/works/061-thumb.webp",
+        "title": "hb2",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/works/062.webp",
+        "thumb": "assets/works/062-thumb.webp",
+        "title": "hb3",
+        "width": 1080,
+        "height": 1920
+      }
+    ],
+    "scope": [
+      "系列海报",
+      "信息编排",
+      "活动传播"
+    ]
+  },
+  {
+    "id": "empty",
+    "title": "空白，也有温度",
+    "en": "A thoughtful pause.",
+    "category": "IP / 插画",
+    "type": "空状态 / 视觉设计",
+    "color": "#dfe5ed",
+    "description": "为空状态建立统一的视觉语言。在等待、暂无内容与操作提示等细节中，以轻量图形传达状态，让产品体验保持完整。",
+    "images": [
+      {
+        "src": "assets/works/155.webp",
+        "thumb": "assets/works/155-thumb.webp",
+        "title": "移动端-空白页v3.0(有色版)",
+        "width": 1800,
+        "height": 4048
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/155.webp",
+        "thumb": "assets/works/155-thumb.webp",
+        "title": "移动端-空白页v3.0(有色版)",
+        "width": 1800,
+        "height": 4048
+      }
+    ],
+    "scope": [
+      "空状态",
+      "视觉规范",
+      "细节设计"
+    ]
+  },
+  {
+    "id": "living",
+    "title": "生活里的界面",
+    "en": "Everyday, thoughtfully arranged.",
+    "category": "UI / UX",
+    "type": "生活服务 / 移动端",
+    "color": "#eee5df",
+    "description": "面向生活服务场景的移动端界面探索，包含“归宿”与健康主题设计。通过内容分组、视觉层级与连续的页面体系，组织日常服务的使用路径。",
+    "images": [
+      {
+        "src": "assets/works/091.webp",
+        "thumb": "assets/works/091-thumb.webp",
+        "title": "归宿",
+        "width": 754,
+        "height": 13000
+      },
+      {
+        "src": "assets/works/075.webp",
+        "thumb": "assets/works/075-thumb.webp",
+        "title": "health",
+        "width": 1006,
+        "height": 13000
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/091.webp",
+        "thumb": "assets/works/091-thumb.webp",
+        "title": "归宿",
+        "width": 754,
+        "height": 13000
+      }
+    ],
+    "scope": [
+      "界面设计",
+      "视觉探索",
+      "移动端"
+    ]
+  }
+]

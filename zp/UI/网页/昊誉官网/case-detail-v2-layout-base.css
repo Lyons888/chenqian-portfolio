@@ -1,0 +1,257 @@
+@import url("case-detail-v2-base.css");
+
+.story-v2 {
+  padding-top: 116px;
+}
+
+.story-v2-hero {
+  padding: 42px 0 92px;
+  background: #fff;
+}
+
+.story-v2-breadcrumb {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 48px;
+  color: #7a8596;
+  font-size: 16px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.story-v2-breadcrumb a {
+  color: #7a8596;
+}
+
+.story-v2-breadcrumb a:hover,
+.story-v2-breadcrumb a:focus-visible {
+  color: var(--red);
+}
+
+.story-v2-breadcrumb span:last-child {
+  overflow: hidden;
+  color: #3f4b5e;
+  font-weight: 750;
+  text-overflow: ellipsis;
+}
+
+.story-v2-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 76px;
+  align-items: start;
+}
+
+.story-v2-hero-main {
+  min-width: 0;
+}
+
+.story-v2 h1 {
+  max-width: 860px;
+  font-size: clamp(42px, 4vw, 58px);
+}
+
+.story-v2-lead {
+  max-width: 790px;
+}
+
+.story-v2-cover {
+  max-width: 820px;
+  margin: 44px 0 0;
+}
+
+.story-v2-cover figure {
+  margin: 0;
+}
+
+.story-v2-cover img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #eceff3;
+}
+
+.story-v2-cover figcaption {
+  margin: 10px 0 0;
+  color: #8a919c;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.story-v2-facts {
+  display: grid;
+  margin: 0;
+  padding: 0 0 0 32px;
+  border-left: 1px solid #dfe2e6;
+}
+
+.story-v2-facts div {
+  padding: 0 0 23px;
+}
+
+.story-v2-facts div + div {
+  padding-top: 23px;
+  border-top: 1px solid #eceef1;
+}
+
+.story-v2-facts div:last-child {
+  padding-bottom: 0;
+}
+
+.story-v2-facts dt {
+  margin: 0 0 8px;
+  color: #9298a2;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.story-v2-facts dd {
+  margin: 0;
+  color: #313741;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.65;
+}
+
+.story-v2-fact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #303640;
+  font-weight: 800;
+}
+
+.story-v2-fact-link:hover,
+.story-v2-fact-link:focus-visible {
+  color: var(--red);
+}
+
+.story-v2-fact-link iconify-icon {
+  color: var(--red);
+  font-size: 17px;
+}
+
+.story-v2-shell {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 116px;
+}
+
+.story-v2-nav-bar {
+  width: min(900px, 100%);
+  padding: 25px 0;
+  border-top: 1px solid #e1e4e8;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.story-v2-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 27px;
+}
+
+.story-v2-nav a {
+  position: relative;
+  padding: 0;
+  color: #707782;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.6;
+}
+
+.story-v2-nav a:hover,
+.story-v2-nav a:focus-visible {
+  color: var(--red);
+}
+
+.story-v2-nav a::before {
+  display: none;
+}
+
+.story-v2-article {
+  width: min(900px, 100%);
+  padding-top: 76px;
+}
+
+.story-v2-related {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .story-v2-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 52px;
+  }
+
+  .story-v2-cover {
+    max-width: none;
+  }
+
+  .story-v2-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 30px;
+    padding: 26px 0 0;
+    border-top: 1px solid #dfe2e6;
+    border-left: 0;
+  }
+
+  .story-v2-facts div,
+  .story-v2-facts div + div {
+    padding: 0 0 22px;
+    border-top: 0;
+  }
+}
+
+@media (max-width: 759px) {
+  .story-v2 {
+    padding-top: 96px;
+  }
+
+  .story-v2-hero {
+    padding: 30px 0 62px;
+  }
+
+  .story-v2-breadcrumb {
+    margin-bottom: 34px;
+    font-size: 13px;
+  }
+
+  .story-v2-breadcrumb span:last-child {
+    max-width: 190px;
+  }
+
+  .story-v2 h1 {
+    font-size: 36px;
+  }
+
+  .story-v2-cover {
+    margin-top: 32px;
+  }
+
+  .story-v2-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .story-v2-nav-bar {
+    overflow-x: auto;
+    padding: 20px 0;
+  }
+
+  .story-v2-nav {
+    width: max-content;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .story-v2-article {
+    padding-top: 58px;
+  }
+
+  .story-v2-shell {
+    padding-bottom: 76px;
+  }
+}
