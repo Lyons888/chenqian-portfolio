@@ -97,6 +97,17 @@ dialog{color:var(--text);background:var(--bg);border:0;padding:0}dialog::backdro
 @media(prefers-reduced-motion:reduce){.hero .deck-card,.phone{transition:none}.hero-spark{transform:none!important}.hero .deck-stage{transform:none!important}}
 [data-motion=off] .hero .deck-stage{transform:none!important}
 
+.reference-mobile-art{display:grid;place-items:center;padding:7% 10% 13%;background:linear-gradient(145deg,#ffffff42,#11181010),var(--art-bg)}
+.reference-phone{width:min(48%,285px);height:112%;overflow:hidden;border:6px solid #f6f8f0;border-radius:22px;background:#f6f8f0;box-shadow:18px 28px 48px #24301a38;transform:rotate(-6deg) translateY(7%);transition:transform .9s var(--ease),box-shadow .9s var(--ease)}
+.reference-phone img{width:100%;height:100%;object-fit:cover;object-position:top}
+.reference-kicker{position:absolute;left:7%;bottom:7%;max-width:68%;font-size:clamp(18px,2.9vw,47px);font-weight:600;line-height:.95;letter-spacing:-.055em;color:#20261d33}
+.work-button:hover .reference-phone{transform:rotate(-1deg) translateY(1%) scale(1.03);box-shadow:20px 34px 58px #24301a42}
+.index-preview .reference-kicker{display:none}
+.index-preview .reference-phone{width:44%;height:112%;border-width:2px;border-radius:7px}
+.source-link{display:inline-flex;gap:7px;align-items:center;border-bottom:1px solid var(--line)}
+.source-link:hover{border-color:var(--text)}
+.source-note{display:block;color:var(--muted);font-size:10px;margin-top:7px}
+
 .mobile-hint{display:none}
 /* On phones the complete introduction and its controls fit in one view. */
 @media(max-width:767px){

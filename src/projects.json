@@ -891,6 +891,111 @@
     ]
   },
   {
+    "id": "xiaohei-charge",
+    "title": "小嘿充电",
+    "en": "Charging service, made playful.",
+    "category": "UI / UX",
+    "type": "充电服务 / 移动端参考",
+    "color": "#b9dff8",
+    "description": "以蓝色服务场景和立体机器人形象串联充电站、设备控制、商城、会员等页面，整体节奏轻快，适合作为生活服务类移动端的界面参考。",
+    "images": [
+      {
+        "src": "assets/works/158.webp",
+        "thumb": "assets/works/158-thumb.webp",
+        "title": "小嘿充电",
+        "width": 1200,
+        "height": 4954
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/158.webp",
+        "thumb": "assets/works/158-thumb.webp",
+        "title": "小嘿充电",
+        "width": 1200,
+        "height": 4954
+      }
+    ],
+    "sourceName": "花瓣采集：小嘿充电 · 充电服务",
+    "sourceUrl": "https://huaban.com/pins/5794219045",
+    "sourceNote": "参考案例，原图署名黑马青年。",
+    "scope": [
+      "移动端参考",
+      "界面视觉",
+      "流程体验"
+    ]
+  },
+  {
+    "id": "mercury-insurance",
+    "title": "水星保",
+    "en": "Insurance flow with a fresh tone.",
+    "category": "UI / UX",
+    "type": "保险小程序 / 移动端参考",
+    "color": "#c7eadf",
+    "description": "薄荷绿色系统搭配清晰的信息分区，覆盖首页、产品列表、个人中心、图标与组件说明。它的价值在于把保险类内容处理得更轻、更容易读。",
+    "images": [
+      {
+        "src": "assets/works/159.webp",
+        "thumb": "assets/works/159-thumb.webp",
+        "title": "水星保",
+        "width": 1800,
+        "height": 3968
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/159.webp",
+        "thumb": "assets/works/159-thumb.webp",
+        "title": "水星保",
+        "width": 1800,
+        "height": 3968
+      }
+    ],
+    "sourceName": "花瓣采集：水星保 · 保险小程序",
+    "sourceUrl": "https://huaban.com/pins/6680954470",
+    "sourceNote": "参考案例，来自一颗柿的项目复盘画板。",
+    "scope": [
+      "移动端参考",
+      "界面视觉",
+      "流程体验"
+    ]
+  },
+  {
+    "id": "jinban-invest",
+    "title": "小金伴投",
+    "en": "Finance onboarding with character.",
+    "category": "UI / UX",
+    "type": "家庭理财 / 移动端参考",
+    "color": "#f3d36b",
+    "description": "围绕家庭理财服务建立完整的移动端流程，从引导、测评、开户、资料录入到反馈状态都有连续表达。黄色吉祥物让金融场景少一些距离感。",
+    "images": [
+      {
+        "src": "assets/works/160.webp",
+        "thumb": "assets/works/160-thumb.webp",
+        "title": "小金伴投",
+        "width": 1800,
+        "height": 7376
+      }
+    ],
+    "cover": [
+      {
+        "src": "assets/works/160.webp",
+        "thumb": "assets/works/160-thumb.webp",
+        "title": "小金伴投",
+        "width": 1800,
+        "height": 7376
+      }
+    ],
+    "sourceName": "花瓣采集：小金伴投 · 家庭理财",
+    "sourceUrl": "https://huaban.com/pins/6621022112",
+    "sourceNote": "参考案例，来自一颗柿的项目复盘画板。",
+    "scope": [
+      "移动端参考",
+      "界面视觉",
+      "流程体验"
+    ]
+  },
+  {
     "id": "haoyu",
     "title": "昊誉信息 · 数字形象",
     "en": "Education meets possibility.",
