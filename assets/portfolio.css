@@ -109,6 +109,9 @@ dialog{color:var(--text);background:var(--bg);border:0;padding:0}dialog::backdro
 .source-note{display:block;color:var(--muted);font-size:10px;margin-top:7px}
 
 .mobile-hint{display:none}
+.hero .deck-a{left:0;top:8%;width:32%}
+.hero .deck[data-active="1"] .deck-a{left:69%;top:10%;width:30%}
+.hero .deck[data-active="2"] .deck-a{left:34%;top:0;width:39%}
 /* On phones the complete introduction and its controls fit in one view. */
 @media(max-width:767px){
 .hero{padding-top:20px}.hero-intro{margin-bottom:18px}.hero-heading{font-size:clamp(86px,21.8vw,144px)}.hero-description{margin-top:16px}.hero-disciplines{margin-top:9px}.hero-actions{margin-top:18px}.hero-exhibition{height:382px;margin-top:24px}.hero .deck-b{width:69%;left:18%;top:13%}.hero .deck[data-active="1"] .deck-c{width:29%;right:32%}.hero .deck[data-active="2"] .deck-a{width:35%;left:36%}.hero-foot{display:none}.hero-spark{right:-.46em}.exhibit-hint{font-size:8px}.exhibit-hint .desktop-hint{display:none}.exhibit-hint .mobile-hint{display:inline}

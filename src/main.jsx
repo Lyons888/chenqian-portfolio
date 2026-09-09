@@ -33,7 +33,11 @@ function Magnetic({children,className='',as:Tag='button',motion=true,...props}){
 function Hero({open,motion}){
   const ref=useRef(null), deckRef=useRef(null), flipState=useRef(null), gesture=useRef(null), swipeClick=useRef(false);
   const [active,setActive]=useState(0);
-  const features=[{project:projects[1],label:'品牌视觉',en:'BRAND & EDITORIAL'},{project:projects[0],label:'数字体验',en:'DIGITAL EXPERIENCE'},{project:projects[2],label:'视觉叙事',en:'POSTER DESIGN'}];
+  const findProject=(id,fallback)=>projects.find(project=>project.id===id)||projects[fallback];
+  const heroMain=findProject('haoyu',0);
+  const heroMood=findProject('mood',0);
+  const heroCharge=findProject('xiaohei-charge',0);
+  const features=[{project:heroMain,label:'官网体验',en:'WEB EXPERIENCE'},{project:heroMood,label:'情绪产品',en:'MOBILE EXPERIENCE'},{project:heroCharge,label:'服务应用',en:'APP UIUX'}];
   const select=n=>{const next=(n+3)%3;if(next===active)return;if(motion)flipState.current=Flip.getState(deckRef.current.querySelectorAll('.deck-card'));setActive(next);};
   useGSAP((ctx,contextSafe)=>{
     const cards=deckRef.current.querySelectorAll('.deck-card');
@@ -78,9 +82,9 @@ function Hero({open,motion}){
     <div className="hero-exhibition" onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();select(active+(e.key==='ArrowRight'?1:-1));}}} onPointerDown={e=>{swipeClick.current=false;if(e.pointerType==='touch')gesture.current={x:e.clientX,y:e.clientY};}} onPointerUp={e=>{if(!gesture.current)return;const dx=e.clientX-gesture.current.x,dy=e.clientY-gesture.current.y;gesture.current=null;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)){swipeClick.current=true;select(active+(dx<0?1:-1));}}} onPointerCancel={()=>{gesture.current=null;}} onClickCapture={e=>{if(swipeClick.current){e.preventDefault();e.stopPropagation();swipeClick.current=false;}}}>
       <div className="exhibit-topline"><span>FEATURED OBJECTS / 2026</span><span className="exhibit-hint"><span className="desktop-hint">点选切换 · 点击当前作品展开</span><span className="mobile-hint">左右滑动 / 点选切换</span></span></div>
       <div className="deck-stage"><div className="deck" ref={deckRef} data-active={active}>
-        <button className={`deck-card deck-a ${active===2?'is-featured':''}`} aria-label={active===2?'查看节日海报项目':'切换至视觉叙事作品'} onClick={()=>active===2?open(projects[2]):select(2)}><img src="assets/works/059.webp" alt="教师节黑金创意海报：师者如光"/><span>POSTER DESIGN <ArrowUpRight/></span></button>
-        <button className={`deck-card deck-c ${active===1?'is-featured':''}`} aria-label={active===1?'查看心情气象台项目':'切换至数字体验作品'} onClick={()=>active===1?open(projects[0]):select(1)}><img src="assets/works/110.webp" alt="心情气象台绿色移动端界面"/><span>DIGITAL EXPERIENCE <ArrowUpRight/></span></button>
-        <button className={`deck-card deck-b ${active===0?'is-featured':''}`} aria-label={active===0?'查看成达企业文化视觉项目':'切换至品牌视觉作品'} onClick={()=>active===0?open(projects[1]):select(0)}><div className="deck-cover"><img src="assets/works/014.webp" alt="成达企业文化手册：拥抱变化" fetchPriority="high"/></div><span>BRAND & EDITORIAL <ArrowUpRight/></span></button>
+        <button className={`deck-card deck-a ${active===2?'is-featured':''}`} aria-label={active===2?'查看小嘿充电项目':'切换至服务应用作品'} onClick={()=>active===2?open(heroCharge):select(2)}><img src="assets/works/158-thumb.webp" alt="小嘿充电蓝色移动端界面"/><span>APP UIUX <ArrowUpRight/></span></button>
+        <button className={`deck-card deck-c ${active===1?'is-featured':''}`} aria-label={active===1?'查看心情气象台项目':'切换至情绪产品作品'} onClick={()=>active===1?open(heroMood):select(1)}><img src="assets/works/110.webp" alt="心情气象台绿色移动端界面"/><span>MOBILE EXPERIENCE <ArrowUpRight/></span></button>
+        <button className={`deck-card deck-b ${active===0?'is-featured':''}`} aria-label={active===0?'查看昊誉信息官网项目':'切换至官网体验作品'} onClick={()=>active===0?open(heroMain):select(0)}><div className="deck-cover"><img src="assets/works/haoyu.webp" alt="昊誉信息官网红白 AI 视觉首页" fetchPriority="high"/></div><span>WEB EXPERIENCE <ArrowUpRight/></span></button>
       </div></div>
       <div className="exhibit-controls"><div className="exhibit-title" aria-live="polite"><span>{String(active+1).padStart(2,'0')} / 03</span><button onClick={()=>open(features[active].project)}>{features[active].project.title}<ArrowUpRight size={17}/></button></div><div className="exhibit-tabs" role="group" aria-label="首页作品切换">{features.map((f,i)=><button key={f.label} aria-pressed={active===i} className={active===i?'active':''} onClick={()=>select(i)}><span>{f.label}</span></button>)}</div></div>
     </div>
